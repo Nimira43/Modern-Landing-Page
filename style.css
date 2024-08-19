@@ -61,3 +61,22 @@ body {
 .header-right span:hover {
   color: #87ceeb;
 }
+
+.main-content {
+  display: flex;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 200px auto;
+  padding: 0 40px;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+}
+
+form {
+  flex: 1;
+}
+
+.text-container {
+  flex: 1;
+}
